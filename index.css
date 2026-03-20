@@ -1,0 +1,114 @@
+
+html{
+    background-color: rgba(64, 35, 2, 0.877);
+}
+body {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 70px;
+    background-color: rgba(40, 18, 2, 0.583);
+    border: 2px solid black;
+    color: beige;
+    align-items: center;
+    font-weight: bold;
+    font-size: 25px;
+    box-shadow: 2px 2px 10px black;
+    flex-grow: 1;
+    transition: font-size 0.3s;
+    transition: font-size 0.3s ease-in-out, box-shadow 0.3s ease-in, transform 0.3s;
+    
+}
+header:hover{
+    box-shadow: 2px 2px 20px rgb(0, 0, 0);
+    font-size: 34px;
+   
+    transform:translateY(30px);
+}
+nav{
+    width: 100;
+    background-color: rgb(0, 12, 0);
+    margin: 150px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 350px;
+    align-items: center;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10px;
+    background-color: rgb(43, 1, 1);
+    width: 100%;
+    height: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    transition: box-shadow 0.4s ease-in-out;
+    
+
+}
+footer:hover{
+    box-shadow: 3px 3px 5px black;
+}
+.link-container{
+    z-index: 55;
+    background-image: linear-gradient(to top, rgba(165, 42, 42, 0.359),  rgba(255, 0, 0, 0.547));
+    height: 300px;
+    width: 320px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid brown;
+    border-radius: 20px;
+    box-shadow: inset 0px 0px 20px black;
+    transition: background-color 0.3s ease;
+    position: relative;
+
+}
+.link-container:hover{
+    background-color: hsl(11, 100%, 11%);
+}
+.link{
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    font-weight: 900;
+    transition:  color 0.5s ease-in,  box-shadow 0.4s ease-in;
+    width: 80%;
+    
+}
+
+.link:hover{
+    color: white;
+    box-shadow: 2px 2px 4px black;
+    
+}
+.link:hover .dropdown{
+    opacity: 0.8;
+}
+.dropdown{
+    background-color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 4px;
+    opacity: 0;
+    position: absolute;
+    bottom: 90px;
+}
+/* 
+Olive drab (#6B705C)
+
+Khaki / tan (#D7C9A3)
+
+Dark brown (#3B3A30)
+
+Black text
+*/
