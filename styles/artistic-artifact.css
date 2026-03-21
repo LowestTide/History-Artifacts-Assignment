@@ -1,0 +1,168 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+    font-size: 40px;
+    font-weight: 990;
+    text-decoration: underline;
+    
+}
+header:hover {
+    transition: color 0.45s ease-in;
+    color: red;
+}
+body{
+    background-image: url("../images/papyrus.jpg");
+    font-family: "Special Elite", system-ui;
+    background-size: cover;
+    margin: 0;
+    
+}
+main .tank{
+    height: 100%;
+    width: 100%;
+    margin-bottom: 0;
+    padding: 0;
+}
+main{
+    position: relative;
+
+    padding-bottom: 0;
+    margin-bottom:0;
+}
+.p-container{
+    margin-top: 200px;
+}
+.motivational-message{
+    text-decoration: underline;
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 40px;
+    color: black;
+    width: 300px;
+    transition: color 0.6s ease-in-out;
+
+}
+.motivational-message:hover{
+    color: white;
+}
+.motivational-message2{
+    position: absolute;
+    top: 50px;
+    font-size: 35px;
+    left: 20px;
+    transition: color 0.6s ease-in-out;
+}
+.motivational-message2:hover{
+    color: white;
+}
+.motivational-message3{
+    position: absolute;
+    top: 90px;
+    width: 250px;
+    font-size: 35px;
+    left: 20px;
+    transition: color 0.6s ease-in-out;
+}
+.motivational-message3:hover{
+    color: white;
+}
+.section-end{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    margin-top: 0;
+    font-size: 1.5rem;
+    font-style: italic;
+    position: relative;
+    transition: color 0.25s ease, background-color 0.25s ease;
+    height: 200px;
+    text-decoration: underline;
+}
+.maple-leaf-1{
+    left: 10px;
+    position: absolute;
+    height: 100px;
+    border-radius: 45px;
+    bottom: 24%;
+}
+.maple-leaf-2{
+    right: 10px;
+    position: absolute;
+    height: 100px;
+    border-radius: 45px;
+    bottom: 24%;
+}
+.section-end h1{
+    margin-top: 0;
+}
+.section-end:hover{
+    color: white;
+    background-color: red;
+}
+.p-container{
+    margin-top: 200px;
+    
+}
+.h3-container{
+    display: flex;
+    justify-content: center;
+}
+.p-inner-container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+    margin-top: 50px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media(min-width: 1051px){
+    .h3-container{
+        font-size: 40px;
+
+    }
+    .p-inner-container{
+        font-size: 18px;
+    }
+    .motivational-message{
+        height: auto;
+        width: auto;
+        font-size: 80px;
+    }
+    .motivational-message2{
+        
+        top: 150px;
+        height: auto;
+        width: auto;
+        font-size: 70px;
+    }
+    .motivational-message3{
+        height: auto;
+        width: 600px;;
+        font-size: 70px;
+        white-space: wrap;
+        top: 230px;
+    }
+    .section-end h2{
+        font-size: 70px;
+        
+    }
+    .maple-leaf-1{
+        height: 150px;
+        bottom: 15%;
+    }
+    .maple-leaf-2{
+        height: 150px;
+        bottom: 15%;
+    }
+}
